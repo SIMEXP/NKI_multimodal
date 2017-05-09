@@ -37,7 +37,7 @@ niak_write_csv(files_in.seeds,tab,opt_csv);
 
 % Setup where to store the date
 %opt.folder_out = [path_root 'connectome_test'];
-opt.folder_out = [path_root 'connectome_T77_20161124'];
+opt.folder_out = [path_root 'connectome_T77_20170508'];
 
 % Set options such that we will not generate graph properties, just the correlation maps:
 opt.flag_p2p = false; % No parcel-to-parcel correlation values
