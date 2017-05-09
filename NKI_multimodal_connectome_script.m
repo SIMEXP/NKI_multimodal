@@ -3,9 +3,7 @@
 
 clear all
 %%% SET PIPELINE FILES_IN
-%hello
 % Set paths 
-% Hello
 path_root = '/gs/project/gsf-624-aa/abadhwar/'; % Root path of you project
 path_preproc = [path_root '/NKI_fiftyplus_preprocessed2_with_niakissue100/fmri_preprocess_all_scrubb05']; % Path of Preprocessed data
 
@@ -37,7 +35,7 @@ niak_write_csv(files_in.seeds,tab,opt_csv);
 
 % Setup where to store the date
 %opt.folder_out = [path_root 'connectome_test'];
-opt.folder_out = [path_root 'connectome_T77_20161124'];
+opt.folder_out = [path_root 'connectome_T77_20170509'];
 
 % Set options such that we will not generate graph properties, just the correlation maps:
 opt.flag_p2p = false; % No parcel-to-parcel correlation values
