@@ -20,7 +20,7 @@ files_in = niak_grab_fmri_preprocess(path_preproc, opt_grab);
 %files_in.network = '/gs/project/gsf-624-aa/database2/preventad/templates/template_cambridge_basc_multiscale_sym_scale007.mnc.gz';
 %files_in.network = '/gs/project/gsf-624-aa/database2/preventad/templates/brain_parcellation_mcinet_basc_sym_77rois.mnc';
 %files_in.network = '/gs/project/gsf-624-aa/database2/preventad/templates/brain_parcellation_mcinet_basc_sym_51rois.mnc.gz';
-files_in.network = '/gsf-624-aa/database2/preventad/templates/tam_template_2016/template_mcinet_basc_sym_clusters_mnc/brain_parcellation_mcinet_basc_sym_33clusters.mnc.gz';
+files_in.network = '/gs/database2/preventad/templates/tam_template_2016/template_mcinet_basc_sym_clusters_mnc/brain_parcellation_mcinet_basc_sym_33clusters.mnc.gz';
 
 %%% LIST OF SEEDS
 % The next step is to generate a list of seeds. This requires creating a text file.
