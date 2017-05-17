@@ -42,7 +42,8 @@ opt_csv.labels_y = { 'index' };
 %tab = [3 ; 5];
 %tab = [21 ; 22];
 %tab = [16 ; 17];
-tab = [12];
+%tab = [12];
+tab = [22 ; 21 ; 27 ; 28 ; 51 ; 50 ; 54 ; 55 ; 17];
 niak_write_csv(files_in.seeds,tab,opt_csv);
 
 %%% SET PIPELINE OPTIONS
@@ -52,7 +53,7 @@ niak_write_csv(files_in.seeds,tab,opt_csv);
 %opt.folder_out = [path_root 'connectome_T77_20170509_tfemcf'];
 %opt.folder_out = [path_root 'connectome_T51_20170510_tfemcf_troi'];
 %opt.folder_out = [path_root 'connectome_T33_20170510_tfemcf_troi'];
-opt.folder_out = [path_root 'connectome_20170517'];
+opt.folder_out = [path_root 'connectome_20170517_a'];
 
 % Set options such that we will not generate graph properties, just the correlation maps:
 opt.flag_p2p = false; % No parcel-to-parcel correlation values
