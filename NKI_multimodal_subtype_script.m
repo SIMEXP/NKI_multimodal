@@ -12,7 +12,8 @@ files_in.model = [path_root 'nki_2016_10_05_ALL3_aman.csv'];
 
 %%% Connectivity maps
 % Grab files created by niak_pipeline_connectome
-path_connectome = [path_root 'connectome_T77_20161124']; % Path of Connectome data
+%path_connectome = [path_root 'connectome_T77_20161124']; % Path of Connectome data
+path_connectome = [path_root 'connectome_20170518']; % Path of Connectome data
 files_conn = niak_grab_connectome(path_connectome);
 
 % Note: files_conn = scalar structure containing the fields network_rois, connectome, rmap, R77_aDMN_1, R77_aDMN_2, mask
@@ -37,7 +38,8 @@ files_in.mask = files_conn.network_rois;
 %opt.folder_out = [path_root 'subtype4_20170104'];
 %opt.folder_out = [path_root 'subtype3_20170104'];
 %opt.folder_out = [path_root 'subtype5_20170104'];
-opt.folder_out = [path_root 'subtype6_20170104'];
+%opt.folder_out = [path_root 'subtype6_20170104'];
+opt.folder_out = [path_root 'subtype6_20170519'];
 
 %% Then specify which covariates to use as confounds before the generation of subtypes.
 % A list of variable names to be regressed out. If unspecified or left empty, no confounds are regressed
